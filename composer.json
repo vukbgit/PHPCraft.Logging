@@ -1,0 +1,20 @@
+{
+    "name": "phpcraft/logging",
+    "type": "library",
+    "description": "PHPCraft subject that manages log in/out to an area",
+    "license": "MIT",
+    "authors": [
+    {
+            "name": "vuk"
+    }
+    ],
+    "require": {
+        "phpcraft/subject": "^0.6.3",
+        "aura/auth": "^2.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "PHPCraft\\Logging\\" : "src/"
+        }
+    }
+}
