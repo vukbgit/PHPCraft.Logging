@@ -9,7 +9,7 @@
     }
     ],
     "require": {
-        "phpcraft/subject": "^0.6.3",
+        "phpcraft/subject": "@dev",
         "aura/auth": "^2.0"
     },
     "autoload": {
