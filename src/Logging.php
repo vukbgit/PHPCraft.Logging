@@ -17,9 +17,9 @@ use PHPCraft\Subject\Subject;
 class Logging extends Subject
 {
     
-    private $loginPage;
-    private $loggedFirstPage;
-    private $message;
+    protected $loginPage;
+    protected $loggedFirstPage;
+    protected $message;
     
     /**
      * Constructor.
